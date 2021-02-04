@@ -1,5 +1,6 @@
-# mostra-pibex-2020
+# projetolps
 
-Repositório para apresentação dos resultados do programa PIBEX/IFPE 2020
+Repositório para hospedar a página do Projeto Livres pelo saber
 
-https://mostra-pibex.github.io/mostra-pibex-2020/
+https://hilsongva.github.io/projetolps/
+
