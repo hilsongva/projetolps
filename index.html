@@ -2,628 +2,290 @@
 <html lang="pt-br">
 
 <head>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mostra PIBEX 2020</title>
-  <link href=" https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <meta charset="utf-8">
+  <title>Livres Pelo Saber</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/lps_logo.ico">
+  <link rel="stylesheet" href=" https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&display=swap">
+  <link rel="stylesheet" href="fontawesome-5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
 
-  <!-- Header -->
-  <header>
-    <div class="jumbotron jumbotron-fluid jumbotron-color my-0">
-      <div class="container">
-        <div class="row marcador align-items-center">
-          <div class="col-md-4 mx-auto text-center">
-            ​<picture>
-              <img src="./img/mostra-logo.png" class="img-fluid img-responsive" alt="...">
-            </picture>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+  <div class="parallax-home container-fluid" id="banner" style="background-image: url('./img/lps_banner_1.png');">
 
-  <!-- Line Break -->
-  <div class="line-break">
-    <svg viewBox="0 0 1695 57" preserveAspectRatio="none">
-      <path d="M0 23c135.4 19 289.6 28.5 462.5 28.5C721.9 51.5 936.7 1 1212.2 1 1395.8.9 1556.7 8.3 1695 23v34H0V23z" transform="translate(847.500000, 28.500000) scale(-1, -1) translate(-847.500000, -28.500000)" fill="#9bd1d1" fill-rule="evenodd">
-      </path>
-    </svg>
   </div>
 
-  <div class="album py-4">
-    <div class="container">
-      <h4 class="py-3">Confira abaixo as apresentações da VIII Mostra de Extensão do Campus Recife</h4>
-      <div class="row">
+  <nav class="navbar navbar-expand-sm lps-navbar fixed-top">
+    <a class="navbar-brand" href="index.html">
+      <img alt="Home" src="./img/lps_logo.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon">
+        <i class="fas fa-bars"></i>
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#projeto">Sobre o Projeto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#equipe">Nossa Equipe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#material">Material de Apoio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#apoiadores">Apoiadores</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-        <div class="col-lg-12">
-          <ul class="filters text-center">
-            <li data-filter="*" class="active"><a href="#">Todos</a></li>
-            <li data-filter=".educacao"><a href="#">Educação</a></li>
-            <li data-filter=".tecnologia"><a href="#">Tecnologia</a></li>
-            <li data-filter=".meio-ambiente"><a href="#">Meio Ambiente</a></li>
-            <li data-filter=".cultura"><a href="#">Cultura, Comunicação, Direitos Humanos e Saúde</a></li>
-          </ul>
-          <div class="projects">
-            <div class="row">
+  <div class="container lps-container">
+    <div class="row lps-row" name="projeto" id="projeto">
+      <div class="col-12 mb-1">
+        <h2>Sobre o Projeto</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non velit elit. Suspendisse id magna accumsan,
+          dignissim nisl et, pellentesque risus. Nulla ante nulla, feugiat quis venenatis vel, maximus in magna. Nullam
+          lacinia porta molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+          himenaeos. Aenean sit amet accumsan ex. Curabitur porttitor, purus ac eleifend volutpat, leo enim gravida
+          quam, vitae cursus neque eros id nisl.</p>
+        <p>Nullam pharetra scelerisque imperdiet. Aliquam eget auctor lorem, nec iaculis libero. Maecenas dignissim
+          tincidunt libero. Mauris in ultrices ipsum, vel euismod massa. Fusce lorem risus, bibendum quis lectus sed,
+          luctus mollis est. Nulla nec ligula massa. Donec varius nibh sit amet lectus varius dapibus. Pellentesque
+          habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent enim purus, feugiat
+          eget ante sed, tristique suscipit diam. Nunc dictum sit amet urna ut dictum. Cras ultrices augue vitae nunc
+          cursus, eget porta nulla sodales. Sed ultrices enim lorem, lobortis fringilla dolor molestie quis.</p>
+        <p>Aenean porta, dolor a ultrices ornare, felis velit rutrum leo, vitae consequat purus odio a mauris. Nam
+          rutrum lectus a ultrices volutpat. Duis pulvinar ligula nec mi mattis venenatis. Vivamus lobortis volutpat
+          vehicula. Quisque consectetur, lacus a molestie faucibus, est nisl facilisis tellus, nec porta arcu orci et
+          erat. Nam sed nunc quam. Pellentesque id nisi leo. Nunc semper feugiat sapien vitae ullamcorper. Curabitur in
+          enim nunc. Mauris id felis sit amet ex posuere viverra. Nam leo justo, molestie sed luctus eget, auctor sed
+          lacus. Sed vitae mi ac enim blandit tempus. Phasellus rhoncus mauris non mi tincidunt, in maximus ante
+          viverra. Nulla elementum mauris quam, ac venenatis urna condimentum varius. In molestie eros eget nisl
+          pulvinar aliquam.</p>
+      </div>
+    </div>
+  </div>
 
-              <!-- INÍCIO EDUCAÇÃO -->
-
-              <!-- vídeo 2-->
-              <div class="col-lg-3 col-md-6 mb-1 item educacao">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=qBXLwTQzhGo">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/qBXLwTQzhGo/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
+  <div class="container">
+    <div class="row lps-row" name="equipe" id="equipe">
+      <div class="col-12 mb-1">
+        <h2>Nossa Equipe</h2>
+        <div class="row lps-row">
+          <div class="col-lg-2 col-sm-4 col-8 lps-col-xs mb-1">
+            <div class="card">
+              <img class="card-img-top" src="img/user_portrait_example.jpg">
+              <div class="card-body">
+                David Borges
               </div>
-
-              <!-- vídeo 8-->
-              <div class="col-lg-3 col-md-6 mb-1 item educacao">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=X1k8NHRBI_w">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/X1k8NHRBI_w/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- vídeo 9-->
-              <div class="col-lg-3 col-md-6 mb-1 item educacao">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=WJzvLhxX7WM">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/WJzvLhxX7WM/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- vídeo 10-->
-              <div class="col-lg-3 col-md-6 mb-1 item educacao">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=NfyQgolBQMw">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/NfyQgolBQMw/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- vídeo 14-->
-              <div class="col-lg-3 col-md-6 mb-1 item educacao">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=jGL-4oVh5RY">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/jGL-4oVh5RY/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- vídeo 15-->
-              <div class="col-lg-3 col-md-6 mb-1 item educacao">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=vEIvs5pxuAI">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/vEIvs5pxuAI/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- vídeo 23-->
-              <div class="col-lg-3 col-md-6 mb-1 item educacao">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=iMYPw3i5h2A">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/iMYPw3i5h2A/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- vídeo 24-->
-              <div class="col-lg-3 col-md-6 mb-1 item educacao">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=YipaQlD-uTU">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/YipaQlD-uTU/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- vídeo 30-->
-              <div class="col-lg-3 col-md-6 mb-1 item educacao">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=-DFh5CKrC0g">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/-DFh5CKrC0g/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- vídeo 36-->
-              <div class="col-lg-3 col-md-6 mb-1 item educacao">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=Xn24URW9DIg">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/Xn24URW9DIg/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- vídeo 38-->
-              <div class="col-lg-3 col-md-6 mb-1 item educacao">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=XAwDQ-YJ27U">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/XAwDQ-YJ27U/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- vídeo 40-->
-              <div class="col-lg-3 col-md-6 mb-1 item educacao">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=eAAoQgqU_Lc">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/eAAoQgqU_Lc/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- vídeo 44-->
-              <div class="col-lg-3 col-md-6 mb-1 item educacao">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=GxUpziaYu34">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/GxUpziaYu34/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- vídeo 46-->
-              <div class="col-lg-3 col-md-6 mb-1 item educacao">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=mndbKmGdFMI">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/mndbKmGdFMI/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-              <!-- FIM EDUCAÇÃO -->
-
-              <!-- INÍCIO TECNOLOGIA -->
-
-              <!-- video 3 -->
-              <div class="col-lg-3 col-md-6 mb-1 item tecnologia">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=xzlYDJxIBSo">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/xzlYDJxIBSo/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- video 4 -->
-              <div class="col-lg-3 col-md-6 mb-1 item tecnologia">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=vfBp7EWx1dI">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/vfBp7EWx1dI/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- video 5 -->
-              <div class="col-lg-3 col-md-6 mb-1 item tecnologia">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=52JKaa_RIuM">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/52JKaa_RIuM/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- video 11 -->
-              <div class="col-lg-3 col-md-6 mb-1 item tecnologia">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=jiZdNxlcLTs">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/jiZdNxlcLTs/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- video 16 -->
-              <div class="col-lg-3 col-md-6 mb-1 item tecnologia">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=x-m1ngeBUWg">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/x-m1ngeBUWg/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- video 17 -->
-              <div class="col-lg-3 col-md-6 mb-1 item tecnologia">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=gVtJiscuuiQ">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/gVtJiscuuiQ/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- video 32 -->
-              <div class="col-lg-3 col-md-6 mb-1 item tecnologia">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=MSHrMsfgH4k">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/MSHrMsfgH4k/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- video 33 -->
-              <div class="col-lg-3 col-md-6 mb-1 item tecnologia">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=3uN8cUw_EqQ">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/3uN8cUw_EqQ/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- video 35 -->
-              <div class="col-lg-3 col-md-6 mb-1 item tecnologia">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=s__3ZVf8KZc">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/s__3ZVf8KZc/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- video 37 -->
-              <div class="col-lg-3 col-md-6 mb-1 item tecnologia">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=iZH2WR0BMuU">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/iZH2WR0BMuU/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-              <!-- FIM TECNOLOGIA -->
-              <!-- INÍCIO MEIO AMBIENTE -->
-              <!-- VÍDEO 20 -->
-              <div class="col-lg-3 col-md-6 mb-1 item meio-ambiente">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=zQbf6YXWkQc">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/zQbf6YXWkQc/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- VÍDEO 26 -->
-              <div class="col-lg-3 col-md-6 mb-1 item meio-ambiente">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=ZshTUoan8GY">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/ZshTUoan8GY/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- VÍDEO 27 -->
-              <div class="col-lg-3 col-md-6 mb-1 item meio-ambiente">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=LlQVrGzLkic">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/LlQVrGzLkic/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- VÍDEO 28 -->
-              <div class="col-lg-3 col-md-6 mb-1 item meio-ambiente">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=6xnHu_TNy2E">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/6xnHu_TNy2E/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- VÍDEO 29 -->
-              <div class="col-lg-3 col-md-6 mb-1 item meio-ambiente">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=rTbDxCoMzLM">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/rTbDxCoMzLM/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- VÍDEO 39 -->
-              <div class="col-lg-3 col-md-6 mb-1 item meio-ambiente">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=p3fs7VSeqN8">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/p3fs7VSeqN8/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- VÍDEO 41 -->
-              <div class="col-lg-3 col-md-6 mb-1 item meio-ambiente">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=WFyzlF9QkL8">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/WFyzlF9QkL8/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- VÍDEO 42 -->
-              <div class="col-lg-3 col-md-6 mb-1 item meio-ambiente">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=JBgjuUq5Sxg">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/JBgjuUq5Sxg/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- VÍDEO 45 -->
-              <div class="col-lg-3 col-md-6 mb-1 item meio-ambiente">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=LJ1h5q8NzYA">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/LJ1h5q8NzYA/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- VÍDEO 48 -->
-              <div class="col-lg-3 col-md-6 mb-1 item meio-ambiente">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=7w-E_fkrvao">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/7w-E_fkrvao/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- VÍDEO 47 -->
-              <div class="col-lg-3 col-md-6 mb-1 item meio-ambiente">
-                <div class="card border-light">
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=fP6OBpdOg2A">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/fP6OBpdOg2A/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-              <!-- FIM MEIO AMBIENTE -->
-
-              <!-- INÍCIO Cultura, Comunicação, Direitos Humanos e Saúde -->
-              <div class="col-lg-3 col-md-6 mb-1 item cultura">
-                <div class="card border-light">
-                  <!--colocar aqui o link do youtube, depois do v=-->
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=L_M5xJrZwkQ">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/L_M5xJrZwkQ/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- INÍCIO vídeo 6 -->
-              <div class="col-lg-3 col-md-6 mb-1 item cultura">
-                <div class="card border-light">
-                  <!--colocar aqui o link do youtube, depois do v=-->
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=1lANLILESII">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/1lANLILESII/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- INÍCIO vídeo 7 -->
-              <div class="col-lg-3 col-md-6 mb-1 item cultura">
-                <div class="card border-light">
-                  <!--colocar aqui o link do youtube, depois do v=-->
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=mpceZgInchY">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/mpceZgInchY/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- INÍCIO vídeo 12 -->
-              <div class="col-lg-3 col-md-6 mb-1 item cultura">
-                <div class="card border-light">
-                  <!--colocar aqui o link do youtube, depois do v=-->
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=i1zijrclTJw">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/i1zijrclTJw/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- INÍCIO vídeo 13 -->
-              <div class="col-lg-3 col-md-6 mb-1 item cultura">
-                <div class="card border-light">
-                  <!--colocar aqui o link do youtube, depois do v=-->
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=5Zena4mvQFw">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/5Zena4mvQFw/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- INÍCIO vídeo 18 -->
-              <div class="col-lg-3 col-md-6 mb-1 item cultura">
-                <div class="card border-light">
-                  <!--colocar aqui o link do youtube, depois do v=-->
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=co5ogOMKNHg">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/co5ogOMKNHg/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-              <!-- INÍCIO vídeo 19 -->
-              <div class="col-lg-3 col-md-6 mb-1 item cultura">
-                <div class="card border-light">
-                  <!--colocar aqui o link do youtube, depois do v=-->
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=2M1-ZVhnN9o">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/2M1-ZVhnN9o/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- INÍCIO vídeo 21 -->
-              <div class="col-lg-3 col-md-6 mb-1 item cultura">
-                <div class="card border-light">
-                  <!--colocar aqui o link do youtube, depois do v=-->
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=IGTeoVSkKds">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/IGTeoVSkKds/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- INÍCIO vídeo 22 -->
-              <div class="col-lg-3 col-md-6 mb-1 item cultura">
-                <div class="card border-light">
-                  <!--colocar aqui o link do youtube, depois do v=-->
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=4Rl5Ib8aFiM">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/4Rl5Ib8aFiM/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- INÍCIO vídeo 25 -->
-              <div class="col-lg-3 col-md-6 mb-1 item cultura">
-                <div class="card border-light">
-                  <!--colocar aqui o link do youtube, depois do v=-->
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=yGbBUkrST6M">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/yGbBUkrST6M/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- INÍCIO vídeo 31 -->
-              <div class="col-lg-3 col-md-6 mb-1 item cultura">
-                <div class="card border-light">
-                  <!--colocar aqui o link do youtube, depois do v=-->
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=J-WhbAYwC1I">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/J-WhbAYwC1I/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- INÍCIO vídeo 34 -->
-              <div class="col-lg-3 col-md-6 mb-1 item cultura">
-                <div class="card border-light">
-                  <!--colocar aqui o link do youtube, depois do v=-->
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=0CxBidq-6us">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/0CxBidq-6us/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-
-              <!-- INÍCIO vídeo 43 -->
-              <div class="col-lg-3 col-md-6 mb-1 item cultura">
-                <div class="card border-light">
-                  <!--colocar aqui o link do youtube, depois do v=-->
-                  <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=Ncxx1IsIhpk">
-                    <img class="card-img-top" src="https://img.youtube.com/vi/Ncxx1IsIhpk/maxresdefault.jpg">
-                  </a>
-                  <div class="card-body">
-                  </div>
-                </div>
-              </div>
-              <!-- FIM Cultura, Comunicação, Direitos Humanos e Saúde -->
-
             </div>
           </div>
+          <p class="col-lg-9 col-sm-8 col-12 mb-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non velit elit. Suspendisse id magna accumsan,
+            dignissim nisl et, pellentesque risus. Nulla ante nulla, feugiat quis venenatis vel, maximus in magna.
+            Nullam lacinia porta molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. Aenean sit amet accumsan ex. Curabitur porttitor, purus ac eleifend volutpat, leo enim
+            gravida quam, vitae cursus neque eros id nisl.
+          </p>
+        </div>
+        <div class="row lps-row">
+          <div class="col-lg-2 col-sm-4 col-8 lps-col-xs mb-1">
+            <div class="card">
+              <img class="card-img-top" src="img/equipe_hilsonvilar.png">
+              <div class="card-body">
+                Profº. Hilson Vilar
+              </div>
+            </div>
+          </div>
+          <p class="col-lg-9 col-sm-8 col-12 mb-1">
+            Graduado em Engenharia Eletrônica (UPE) e mestre em Ciências da Computação (UFPE). Pai de Júlia e Júlio,
+            torcedor do Sport e apaixonado por tudo que aumenta a produtividade e a qualidade de vida, como a educação
+            inclusiva praticada no IFPE.
+          </p>
+        </div>
+        <div class="row lps-row">
+          <div class="col-lg-2 col-sm-4 col-8 lps-col-xs mb-1">
+            <div class="card">
+              <img class="card-img-top" src="img/equipe_jessejames.png">
+              <div class="card-body">
+                Jesse James
+              </div>
+            </div>
+          </div>
+          <p class="col-lg-9 col-sm-8 col-12 mb-1">
+            Graduando em Geografia no IFPE, 23 anos, torcedor apaixonado do clube Náutico Capibaribe, gerente e aprendiz
+            de tudo que seja interessante.
+          </p>
+        </div>
+        <div class="row lps-row">
+          <div class="col-lg-2 col-sm-4 col-8 lps-col-xs mb-1">
+            <div class="card">
+              <img class="card-img-top" src="img/equipe_joao.jpg">
+              <div class="card-body">
+                João
+              </div>
+            </div>
+          </div>
+          <p class="col-lg-9 col-sm-8 col-12 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+            velit elit. Suspendisse id magna accumsan, dignissim nisl et, pellentesque risus. Nulla ante nulla, feugiat
+            quis venenatis vel, maximus in magna. Nullam lacinia porta molestie. Class aptent taciti sociosqu ad litora
+            torquent per conubia nostra, per inceptos himenaeos. Aenean sit amet accumsan ex. Curabitur porttitor, purus
+            ac eleifend volutpat, leo enim gravida quam, vitae cursus neque eros id nisl.</p>
+        </div>
+        <div class="row lps-row">
+          <div class="col-lg-2 col-sm-4 col-8 lps-col-xs mb-1">
+            <div class="card">
+              <img class="card-img-top" src="img/equipe_lizandro.png">
+              <div class="card-body">
+                Lizandro
+              </div>
+            </div>
+          </div>
+          <p class="col-lg-9 col-sm-8 col-12 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+            velit elit. Suspendisse id magna accumsan, dignissim nisl et, pellentesque risus. Nulla ante nulla, feugiat
+            quis venenatis vel, maximus in magna. Nullam lacinia porta molestie. Class aptent taciti sociosqu ad litora
+            torquent per conubia nostra, per inceptos himenaeos. Aenean sit amet accumsan ex. Curabitur porttitor, purus
+            ac eleifend volutpat, leo enim gravida quam, vitae cursus neque eros id nisl.</p>
+        </div>
+        <div class="row lps-row">
+          <div class="col-lg-2 col-sm-4 col-8 lps-col-xs mb-1">
+            <div class="card">
+              <img class="card-img-top" src="img/equipe_midian.jpg">
+              <div class="card-body">
+                Midian
+              </div>
+            </div>
+          </div>
+          <p class="col-lg-9 col-sm-8 col-12 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+            velit elit. Suspendisse id magna accumsan, dignissim nisl et, pellentesque risus. Nulla ante nulla, feugiat
+            quis venenatis vel, maximus in magna. Nullam lacinia porta molestie. Class aptent taciti sociosqu ad litora
+            torquent per conubia nostra, per inceptos himenaeos. Aenean sit amet accumsan ex. Curabitur porttitor, purus
+            ac eleifend volutpat, leo enim gravida quam, vitae cursus neque eros id nisl.</p>
+        </div>
+        <div class="row lps-row">
+          <div class="col-lg-2 col-sm-4 col-8 lps-col-xs mb-1">
+            <div class="card">
+              <img class="card-img-top" src="img/equipe_nathalia.png">
+              <div class="card-body">
+                Nathália
+              </div>
+            </div>
+          </div>
+          <p class="col-lg-9 col-sm-8 col-12 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+            velit elit. Suspendisse id magna accumsan, dignissim nisl et, pellentesque risus. Nulla ante nulla, feugiat
+            quis venenatis vel, maximus in magna. Nullam lacinia porta molestie. Class aptent taciti sociosqu ad litora
+            torquent per conubia nostra, per inceptos himenaeos. Aenean sit amet accumsan ex. Curabitur porttitor, purus
+            ac eleifend volutpat, leo enim gravida quam, vitae cursus neque eros id nisl.</p>
+        </div>
+        <div class="row lps-row">
+          <div class="col-lg-2 col-sm-4 col-8 lps-col-xs mb-1">
+            <div class="card">
+              <img class="card-img-top" src="img/equipe_thayseparaiso.png">
+              <div class="card-body">
+                Profª. Thayse Paraíso
+              </div>
+            </div>
+          </div>
+          <p class="col-lg-9 col-sm-8 col-12 mb-1">
+            Graduada em Letras (UFPE), mestra e doutoranda em Linguística (UFPE). Professora do IFPE e ciente do seu
+            papel social enquanto servidora pública, conduz o seu trabalho com a certeza de que o acesso à educação
+            amplia o olhar das pessoas sobre o mundo.
+            Como colaboradora do projeto "Livres Pelo Saber", deseja contribuir para a construção de um conhecimento
+            cada vez mais emancipatório, consciente e libertador.
+          </p>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Footer -->
-  <footer class="text-muted text-center py-4 bg-dark">
-    <p class="mb-0 text-white">&copy; 2020 DIEX. Todos os direitos reservados</p>
-    <small class="d-block mb-1">Orientação e suporte técnico: professores Hilson Vilar e Paulo Abadie Guedes</small>
-    <small class="d-block mb-1">Desenvolvimento: Tarcísio Augusto Santos</small>
-  </footer>
+  <div class="container-fluid">
+    <div class="row lps-row-header" name="material" id="material">
+      <div class="col-12 mb-1">
+        <h1>Material de Apoio</h1>
+      </div>
+    </div>
+  </div>
 
-  <!-- Javascript -->
-  <script src="js/jquery.slim.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/imagesloaded.pkgd.min.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/script.js"></script>
+  <div class="parallax-material container-fluid" style="background-image: url('./img/pattern2.png');">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-md-6 mb-1">
+        <div class="row justify-content-center">
+          <div class="col-md-10 col-11 mb-1 text-parallax-material">
+            <p> Para conferir as aulas do curso acesse o <a href="https://ava.recife.ifpe.edu.br/">Ambiente Virtual de
+                Aprendizagem</a> do IFPE Campus Recife</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-1" id="img-livros">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-5 mb-1" style="margin-top: 20px;">
+            <img class="img-fluid" src="img/material_livros.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container lps-container-footer">
+    <div class="row lps-row justify-content-center" name="apoiadores" id="apoiadores">
+      <div class="col-12 mb-1">
+        <h2>Apoiadores</h2>
+      </div>
+      <div class="col-md-3 col-5 mb-1">
+        <div class="card lps-card">
+          <a href="https://ead.educacao.pe.gov.br/">
+            <img class="card-img-top" src="img/apoiador_ead.png">
+          </a>
+          <div class="card-body">
+            Educação a Distância
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-5 mb-1">
+        <div class="card lps-card">
+          <a href="http://imeph.com.br/">
+            <img class="card-img-top" src="img/apoiador_imeph.png">
+          </a>
+          <div class="card-body">
+            Editora IMEPH
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-5 mb-1">
+        <div class="card lps-card">
+          <a href="https://www.tjpe.jus.br/">
+            <img class="card-img-top" src="img/apoiador_tjpe.jpeg">
+          </a>
+          <div class="card-body">
+            Tribunal de Justiça de Pernambuco
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <span>
+      <a class="nav-link" id="inicio" href="#banner" style="display: none;">
+        <i class="fas fa-angle-up"></i>
+      </a>
+    </span>
+  </div>
+
+  <div class="jumbotron jumbotron-fluid">
+    <p class="mb-0">&copy; 2021 DIEX. Todos os direitos reservados</p>
+    <small class="d-block mb-1">Orientação e suporte técnico: professores Hilson Vilar</small>
+    <small class="d-block mb-1">Desenvolvimento: David M. Borges</smal>
+  </div>
+
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script src="fontawesome-5.15.2/js/all.min.js"></script>
+<script src="js/script.js"></script>
 
 </html>
