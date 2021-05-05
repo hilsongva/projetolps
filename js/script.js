@@ -1,15 +1,15 @@
 var navItens = document.querySelectorAll('.nav-link');
 var topbtn = document.getElementById('inicio');
+var navBrand = document.getElementById('navbarBrand');
 
-window.addEventListener('scroll', function(){
-  if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
-    topbtn.style.display="block";
-  } else {
-    topbtn.style.display="none";
-  }
-})
+window.addEventListener('DOMContentLoaded', function() {
+  navInit();
+  toTopArrowBtn();
+});
 
-navItens.forEach(item =>{
+window.addEventListener('scroll', toTopArrowBtn);
+
+navItens.forEach(item =>{  
   item.addEventListener('click', scrollToIdOnClick);
 })
 
@@ -25,12 +25,12 @@ function scrollToIdOnClick(event) {
     ref = getScrollTopByHref(event.target) - 80;
   }
   scrollToPosition(ref);
+  navStyleControl(event);
 }
 
 function scrollToPosition(ref) {
   smoothScrollTo(0, ref);
 }
-
 
 /**
  * Smooth scroll animation
@@ -63,3 +63,47 @@ function scrollToPosition(ref) {
     window.scroll(newX, newY);
   }, 1000 / 60); // 60 fps
 };
+
+function navStyleControl(event){
+  const element = event.target;
+
+  if(element.getAttribute('id')!='inicio'){
+    navBrand.classList.remove('navbar-brand-ativado');
+    if (element.classList.contains('nav-link-desativado')) {
+      element.classList.remove('nav-link-desativado');
+    }
+  
+    if (!element.classList.contains('nav-link-ativado')) {
+      element.classList.add('nav-link-ativado');
+    }
+  
+    navItens.forEach(item =>{  
+      if (item !== element && item.classList.contains('nav-link-ativado')) {
+        item.classList.remove('nav-link-ativado');
+        item.classList.add('nav-link-desativado');
+      }
+    });
+  }
+
+  if(element.getAttribute('id')=='inicio'){
+    navInit();
+  }
+}
+
+function navInit(){  
+  navBrand.classList.add('navbar-brand-ativado');
+  navItens.forEach(item =>{  
+    if(item.getAttribute('id')!='inicio'){
+      item.classList.remove('nav-link-ativado');
+      item.classList.add('nav-link-desativado');
+    }    
+  });  
+}
+
+function toTopArrowBtn(){
+  if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    topbtn.style.display="block";
+  } else {
+    topbtn.style.display="none";
+  }
+}
