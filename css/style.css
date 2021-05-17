@@ -33,6 +33,7 @@ nav a img{
 }
 
 .parallax-home {
+  background-image: url('lps_banner_1.png');
   background-color: #2c314f;
 
   height: 100%; 
@@ -239,8 +240,10 @@ body::-webkit-scrollbar-track{
   background-color: #2c314f; 
 }
 
-@media (max-width:360px){
-
+@media (max-width:415px){
+  .parallax-home {
+    background-image: url('lps_banner_0.png');
+  }
 }
 
 @media (max-width: 575.98px) { 
