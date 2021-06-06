@@ -278,3 +278,57 @@ body::-webkit-scrollbar-track{
     display: none;
   }
 }
+
+@keyframes bg {
+  0% {
+      background-size:    0 1px,
+                          1px 0,
+                          0 1px,
+                          1px 0;
+  }
+  25% {
+      background-size:    100% 1px,
+                          1px 0,
+                          0 1px,
+                          1px 0;
+  }
+  50% {
+      background-size:    100% 1px,
+                          1px 100%,
+                          0 1px,
+                          1px 0;
+  }
+  75% {
+      background-size:    100% 1px,
+                          1px 100%,
+                          100% 1px,
+                          1px 0;
+  }
+  100% {
+      background-size:    100% 1px,
+                          1px 100%,
+                          100% 1px,
+                          1px 100%;
+  }
+}
+
+.animated-box {
+  border-style:solid;
+  border-width: 7px;
+  border-color: #0d162f;
+  background-repeat: no-repeat;
+  background-image:   linear-gradient(to right, #f3f4c6 100%, #f3f4c6 100%),
+                      linear-gradient(to bottom, #f3f4c6 100%, #f3f4c6 100%),
+                      linear-gradient(to right, #f3f4c6 100%, #f3f4c6 100%),
+                      linear-gradient(to bottom, #f3f4c6 100%, #f3f4c6 100%);
+  background-size:    100% 2px,
+                      2px 100%,
+                      100% 2px,
+                      2px 100%;
+  background-position:    0 0,
+                          100% 0,
+                          100% 100%,
+                          0 100%;
+  animation: bg 5.25s cubic-bezier(0.19, 1, 0.22, 1) infinite;
+  animation-play-state: running;
+}
